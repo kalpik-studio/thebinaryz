@@ -1,14 +1,24 @@
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   background-image: url("../images/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   color: #ffffff;
-  padding-bottom: 75px; }
+  padding-bottom: 75px;
+  position: relative; }
   @media (min-width: 768px) {
     body {
       padding-bottom: 110px; } }
+
+.screen {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000080; }
 
 .navbar-brand {
   margin-right: 0; }
@@ -70,5 +80,8 @@ p {
     text-decoration: none;
     background-color: #000000;
     color: #ffffff; }
+
+main {
+  margin-top: auto; }
 
 /*# sourceMappingURL=bd-coming-soon.css.map */
