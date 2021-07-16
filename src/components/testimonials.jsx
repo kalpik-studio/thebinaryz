@@ -13,8 +13,6 @@ let slides = [
   <img  src={award1} alt="1" />,
 <img  src={award2} alt="2" />  ,
 <img  src={award3} alt="3" />   ];
-{/* <img  src="https://picsum.photos/800/303/?random" alt="4" />  ,
-<img src="https://picsum.photos/800/304/?random" alt="5" />  */}
 
 
 export const Testimonials = (props) => {
