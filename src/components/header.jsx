@@ -16,7 +16,7 @@ export const Header = (props) => {
                 <img src = {Img} style = {{ width: '600px', height : 'auto'}} alt= ''/>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
                 <a
-                  href='#features'
+                  href='#about'
                   className='btn btn-custom btn-lg page-scroll'
                 >
                   Learn More

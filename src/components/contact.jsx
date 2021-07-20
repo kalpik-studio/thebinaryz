@@ -119,8 +119,10 @@ export const Contact = (props) => {
                   <i className='fa fa-envelope-o'></i> Email
                 </span>{' '}
                 {props.data ? props.data.email : 'loading'}
+                <a href="mailto:contact-us@thebinaryz.com" style={{ color: '#FFF' }}>contact-us@thebinaryz.com</a>
               </p>
             </div>
+            
           </div>
           <div className='col-md-12'>
             <div className='row'>

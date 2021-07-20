@@ -3,16 +3,27 @@
 // import Drone from './images/DroneConst2.png';
 // import WorldMap from './images/MapMin.jpg';
 // import Cyber from './images/cybersec.png';
-import award1 from './images/award1.png';
+import award1 from './images/award1.jpg';
 import award2 from './images/award2.png';
 import award3 from './images/award3.png';
+import award4 from './images/award4.jpg';
+import award5 from './images/award5.jpg';
 import {Carousel} from '3d-react-carousal';
+// import {
+//   MDBCarousel,
+//   MDBCarouselInner,
+//   MDBCarouselItem,
+//   MDBCarouselElement,
+//   MDBCarouselCaption
+// } from 'mdb-react-ui-kit';
 
 
 let slides = [
-  <img  src={award1} alt="1" />,
-<img  src={award2} alt="2" />  ,
-<img  src={award3} alt="3" />   ];
+<a href = "https://www.thenational.ae/business/technology/uae-students-focused-on-finding-workable-uses-for-drones-1.249520" target="_blank"><img  src={award1} alt="1" /></a>,
+<a href = "http://www.yaleaders.org/event/ymp-graduates-first-cohort/" target="_blank"><img  src={award2} alt="2" /></a> ,
+<a href = "https://futurism.com/these-are-the-top-20-finalists-for-the-drones-for-good-1m-prize" target="_blank"><img  src={award3} alt="3" /> </a>,
+<a href = "https://universe.bits-pilani.ac.in/dubai/udaya/HONORS" target="_blank"><img  src={award4} alt="1" /></a>,
+<a href = "https://www.educationworld.in/yashaan-cooper/" target="_blank"><img  src={award5} alt="2" /></a>   ];
 
 
 export const Testimonials = (props) => {
@@ -22,18 +33,39 @@ export const Testimonials = (props) => {
         <div className='section-title text-center'>
           <h2>Achievements</h2>
         </div>
-        {/* This is our carousal Component:  */}
-        <br/>
-        <br/>
+       <center>We are just getting started</center>
         <br/>
         <Carousel slides={slides} autoplay={true} interval={5000}/>
         <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <h3>Testimonials</h3>
+{/* 
+        <MDBCarousel showControls showIndicators dark fade>
+      <MDBCarouselInner>
+        <MDBCarouselItem itemId={0}>
+          <MDBCarouselElement src='https://mdbootstrap.com/img/Photos/Slides/img%20(19).jpg' alt='...' />
+          <MDBCarouselCaption>
+            <h5>First slide label</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </MDBCarouselCaption>
+        </MDBCarouselItem>
+        <MDBCarouselItem itemId={1}>
+          <MDBCarouselElement src='https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg' alt='...' />
+          <MDBCarouselCaption>
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </MDBCarouselCaption>
+        </MDBCarouselItem>
+
+        <MDBCarouselItem itemId={2}>
+          <MDBCarouselElement src='https://mdbootstrap.com/img/Photos/Slides/img%20(40).jpg' alt='...' />
+          <MDBCarouselCaption>
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </MDBCarouselCaption>
+        </MDBCarouselItem>
+      </MDBCarouselInner>
+    </MDBCarousel> */}
+
+        {/* <h3>Testimonials</h3>
         <div className='row'>
           {props.data
             ? props.data.map((d, i) => (
@@ -51,7 +83,7 @@ export const Testimonials = (props) => {
                 </div>
               ))
             : 'loading'}
-        </div>
+        </div> */}
       </div>
     </div>
   )

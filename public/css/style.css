@@ -123,6 +123,7 @@ hr {
 }
 .navbar-toggle {
 	border-radius: 0;
+	margin-top: 25px;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #fff;
@@ -227,7 +228,7 @@ header .intro-text {
 
 @media (max-width: 768px) {
 	#header img {
-		max-width: 400px;
+		max-width: 300px;
 
 	}
 	}
