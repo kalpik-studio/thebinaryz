@@ -1,4 +1,5 @@
 import Img from './images/Untitled-2.png';
+import React from 'react';
 
 export const Navigation = (props) => {
   return (

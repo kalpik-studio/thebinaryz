@@ -224,6 +224,7 @@ header .intro-text {
 	padding-top: 350px;
 	padding-bottom: 200px;
 	text-align: center;
+	/* background:black; */
 }
 
 @media (max-width: 768px) {
@@ -393,7 +394,7 @@ header .intro-text {
 	background: #f6f6f6;
 }
 #testimonials i {
-	color: #e6e6e6;
+	color: black;
 	font-size: 32px;
 	margin-bottom: 20px;
 }

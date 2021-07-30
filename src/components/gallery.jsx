@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const Gallery = (props) => {
   return (
     <div id='portfolio' className='text-center'>
@@ -15,9 +17,10 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/01-large.jpg'
+                    href='http://www.galaxkey.com/'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
+                    target="_blank" rel="noopener noreferrer"
                   >
                     <div className='hover-text'>
                       <h4>Galaxkey</h4>
@@ -57,9 +60,10 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/03-large.jpg'
+                    href='http://ewt.world/zura-asset-tracking-protection/'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
+                    target="_blank" rel="noopener noreferrer"
                   >
                     <div className='hover-text'>
                       <h4>ZURA</h4>

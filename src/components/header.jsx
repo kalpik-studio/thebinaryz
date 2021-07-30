@@ -1,5 +1,5 @@
 import Img from "./images/whitebinaryz.png";
-
+import React from 'react';
 
 export const Header = (props) => {
   return (
@@ -14,7 +14,7 @@ export const Header = (props) => {
                   <span></span>
                 </h1> */}
                 <img src = {Img} style = {{ width: '600px', height : 'auto'}} alt= ''/>
-                <p>{props.data ? props.data.paragraph : 'Loading'}</p>
+                <p style={{color: 'white', fontWeight: 'bold'}}>{props.data ? props.data.paragraph : 'Loading'}</p>
                 <a
                   href='#about'
                   className='btn btn-custom btn-lg page-scroll'
