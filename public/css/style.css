@@ -189,7 +189,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
+	background: url(../img/intro-bg.jpg) fixed center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -308,12 +308,22 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-	color: #fff;
+	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); 
+
+	display: flex;
 }
+
 #services .service-desc {
 	margin: 10px 10px 20px;
 }
+
+/* @media (min-width: 1200px) {
+	.container {
+	  width: 1170px;
+	  background-color: yellow;
+	}
+  } */
+
 #services h2 {
 	color: #fff;
 }
@@ -332,7 +342,7 @@ header .intro-text {
 	width: 120px;
 	height: 120px;
 	padding: 40px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #E6DADA 0%, #5ca9fb 100%);
 	border-radius: 50%;
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
@@ -344,7 +354,19 @@ header .intro-text {
 }
 #services p {
 	color: rgba(255,255,255,.75);
+	text-align: justify;
+	text-justify: inter-character;
+	display: flex;
 }
+@media (max-width: 768px) {
+	#services p {
+
+		flex-direction: column;
+		text-align: left;
+		text-justify: inter-character
+	}
+	}
+
 #services .service-desc {
 	margin-bottom: 40px;
 }
