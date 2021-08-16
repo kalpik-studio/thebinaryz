@@ -14,18 +14,25 @@
   width: 1400px;
   min-width: 1000px;
   height: auto;
-  min-height: 400px;
+  min-height: 300px;
   border-radius: 10px;
 }
 
 @media (max-width: 768px) {
 	.image {
-    width: 500px;
+    width: 345px;
     min-width: 200px;
     height: auto;
     min-height: 200px;
     border-radius: 20px;
 	}
+  .slider {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 	}
 
 .right-arrow {

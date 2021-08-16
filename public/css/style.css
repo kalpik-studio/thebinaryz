@@ -309,20 +309,17 @@ header .intro-text {
 #services {
 	padding: 100px 0;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); 
-
-	display: flex;
 }
 
 #services .service-desc {
 	margin: 10px 10px 20px;
 }
 
-/* @media (min-width: 1200px) {
+@media (min-width: 1200px) {
 	.container {
 	  width: 1170px;
-	  background-color: yellow;
 	}
-  } */
+  }
 
 #services h2 {
 	color: #fff;
@@ -356,12 +353,10 @@ header .intro-text {
 	color: rgba(255,255,255,.75);
 	text-align: justify;
 	text-justify: inter-character;
-	display: flex;
 }
 @media (max-width: 768px) {
 	#services p {
 
-		flex-direction: column;
 		text-align: left;
 		text-justify: inter-character
 	}

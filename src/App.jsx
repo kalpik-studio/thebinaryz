@@ -35,6 +35,7 @@ const App = () => {
       {/* <Headerr/> */}
       <ImageSlider slides={SliderData} />
       {/* <MainCarousel/> */}
+      <br/>
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Testimonials data={landingPageData.Testimonials} />
