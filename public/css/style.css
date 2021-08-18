@@ -312,7 +312,7 @@ header .intro-text {
 }
 
 #services .service-desc {
-	margin: 10px 10px 20px;
+	margin: 10px 10px 10px;
 }
 
 @media (min-width: 1200px) {
@@ -352,7 +352,6 @@ header .intro-text {
 #services p {
 	color: rgba(255,255,255,.75);
 	text-align: justify;
-	text-justify: inter-character;
 }
 @media (max-width: 768px) {
 	#services p {

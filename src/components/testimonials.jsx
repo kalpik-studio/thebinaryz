@@ -5,6 +5,7 @@ import award4 from './images/award4.jpg';
 import award5 from './images/award5.jpg';
 import {Carousel} from '3d-react-carousal';
 import React from 'react';
+import './testimonials.css';
 
 let slides = [
 <a href = "https://www.thenational.ae/business/technology/uae-students-focused-on-finding-workable-uses-for-drones-1.249520" target="_blank" rel="noopener noreferrer"><img  src={award1} alt="1" /></a>,

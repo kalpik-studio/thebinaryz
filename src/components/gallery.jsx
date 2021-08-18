@@ -77,24 +77,23 @@ export const Gallery = (props) => {
                 </div>
               </div>
             </div>
-            {/* <div className='col-sm-6 col-md-4 col-lg-4'>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
                   {' '}
-                  <a
-                    href='img/portfolio/04-large.jpg'
+                  {/* <a
+                    href=''
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Lorem Ipsum</h4>
                     </div>
                     <img
-                      src='img/portfolio/04-small.jpg'
+                      src=''
                       className='img-responsive'
-                      alt='Project Title'
+                      alt=''
                     />{' '}
-                  </a>{' '}
+                  </a>{' '} */}
                 </div>
               </div>
             </div>
@@ -103,12 +102,13 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/05-large.jpg'
+                    href='https://www.dataresolve.com'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
+                    target="_blank" rel="noopener noreferrer"
                   >
                     <div className='hover-text'>
-                      <h4>Adipiscing Elit</h4>
+                      <h4>Data Resolve</h4>
                     </div>
                     <img
                       src='img/portfolio/05-small.jpg'
@@ -119,7 +119,7 @@ export const Gallery = (props) => {
                 </div>
               </div>
             </div>
-            <div className='col-sm-6 col-md-4 col-lg-4'>
+            {/*<div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
                   {' '}
