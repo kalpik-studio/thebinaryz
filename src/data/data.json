@@ -90,7 +90,8 @@
         "email": "",
         "facebook": "facebook.com",
         "twitter": "twitter.com",
-        "youtube": "linkedin.com"
+        "youtube": "https://www.linkedin.com/company/the-binaryz",
+        "linkedin":"https://www.linkedin.com/company/the-binaryz"
     },
     "Features": [{
             "icon": "fa fa-comments-o",
