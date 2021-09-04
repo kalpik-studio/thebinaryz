@@ -321,6 +321,16 @@ header .intro-text {
 	}
   }
 
+  @media (max-width: 570px) {
+	.container {
+	  width: 100%;
+	  overflow: hidden;
+	  display: flex;
+	  flex-direction: column;
+
+	}
+  }
+
 #services h2 {
 	color: #fff;
 }
@@ -351,15 +361,15 @@ header .intro-text {
 }
 #services p {
 	color: rgba(255,255,255,.75);
-	text-align: justify;
+	text-align: center;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 	#services p {
 
 		text-align: left;
 		text-justify: inter-character
 	}
-	}
+	} */
 
 #services .service-desc {
 	margin-bottom: 40px;
