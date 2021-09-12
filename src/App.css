@@ -11,10 +11,10 @@
 }
 
 .image {
-  width: 1400px;
-  min-width: 1000px;
+  width: 1550px;
+  min-width: 1200px;
   height: auto;
-  min-height: 300px;
+  min-height: 500px;
   border-radius: 10px;
 }
 

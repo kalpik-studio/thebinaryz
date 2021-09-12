@@ -31,6 +31,7 @@ export const Gallery = (props) => {
                 </div>
               </div>
             </div>
+
             <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
@@ -52,26 +53,26 @@ export const Gallery = (props) => {
                 </div>
               </div>
             </div>
-            <div className='col-sm-6 col-md-4 col-lg-4'>
+             <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
-                <div className='hover-bg'>
+                {/* <div className='hover-bg'>
                   {' '}
                   <a
-                    href='http://ewt.world/zura-asset-tracking-protection/'
+                    href=''
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                     target="_blank" rel="noopener noreferrer"
                   >
                     <div className='hover-text'>
-                      <h4>ZURA</h4>
+                      <h4></h4>
                     </div>
                     <img
-                      src='img/portfolio/03-small.jpg'
+                      src='img/portfolio/11-small.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
                   </a>{' '}
-                </div>
+                </div> */}
               </div>
             </div>
             <div className='col-sm-6 col-md-4 col-lg-4'>
@@ -88,7 +89,7 @@ export const Gallery = (props) => {
                       <h4>Technavious</h4>
                     </div>
                     <img
-                      src='img/portfolio/04-small.jpg'
+                      src='img/portfolio/03-small.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -110,7 +111,7 @@ export const Gallery = (props) => {
                       <h4>Data Resolve</h4>
                     </div>
                     <img
-                      src='img/portfolio/05-small.jpg'
+                      src='img/portfolio/04-small.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
