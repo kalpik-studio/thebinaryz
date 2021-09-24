@@ -119,28 +119,29 @@ export const Gallery = (props) => {
                 </div>
               </div>
             </div>
-            {/*<div className='col-sm-6 col-md-4 col-lg-4'>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/06-large.jpg'
+                    href='https://www.adaptideations.com/'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
+                    target="_blank" rel="noopener noreferrer"
                   >
                     <div className='hover-text'>
-                      <h4>Dolor Sit</h4>
+                      <h4>Adapt Ideations</h4>
                     </div>
                     <img
-                      src='img/portfolio/06-small.jpg'
+                      src='img/portfolio/07-small.jpg'
                       className='img-responsive'
-                      alt='Project Title'
+                      alt='Adapt Ideations'
                     />{' '}
                   </a>{' '}
                 </div>
               </div>
             </div>
-            <div className='col-sm-6 col-md-4 col-lg-4'>
+            {/*<div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
                   {' '}
